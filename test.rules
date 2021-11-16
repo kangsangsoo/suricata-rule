@@ -18,3 +18,10 @@ alert tcp any any -> any 443 (msg:"apple.com access"; tls.sni; content:"apple.co
 alert tcp any any -> any 443 (msg:"samsung.com access"; tls.sni; content:"samsung.com"; sid:10018; rev:1;)
 alert tcp any any -> any 443 (msg:"kulms.korea.ac.kr access"; tls.sni; content:"kulms.korea.ac.kr"; sid:10019; rev:1;)
 alert tcp any any -> any 443 (msg:"gitlab.com access"; tls.sni; content:"gitlab.com"; sid:10020; rev:1;)
+
+
+
+
+
+
+
